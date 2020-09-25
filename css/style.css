@@ -95,13 +95,15 @@ div#sea {
   position: absolute;
   color: #fff;
   width: 100%;
-  content: "Click Me!";
+  content: "From Tayyab Click here!";
   left: 0;
   bottom: 0;
   font-size: 24px;
   text-align: center;
   transform: rotate(-20deg);
   transform-origin: 0 0;
+  background-color: rgba(241, 10, 10, 0.555);
+  border-radius: 20px;
 }
 .giftbox .cover {
   width: 100%;
