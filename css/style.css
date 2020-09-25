@@ -372,12 +372,12 @@ div#sea {
 .step-4 .icons .row span{
   /* color: rgb(235, 91, 91); */
   animation: neon .08s ease-in-out infinite alternate;
-  font-size: 90px;
+  font-size: 40px;
 }
 .step-4 .icons .name span{
   color: rgb(235, 91, 91);
   animation: neon .08s ease-in-out infinite alternate;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .step-4 .icons .row span:nth-child(even), .step-3 .icons .row span:nth-child(even) {
