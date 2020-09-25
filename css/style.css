@@ -180,7 +180,7 @@ div#sea {
 .icons .row span {
   color: #e5e5e5;
   text-shadow: 4px 4px 0 rgba(96, 125, 139, 0.4);
-  /* font-size: 50px; */
+  font-size: 50px;
   display: inline-block;
   opacity: 0;
   transition: transform 0.5s ease-in, opacity 0.7s;
@@ -369,11 +369,15 @@ div#sea {
   color: #c6e2ff;
   animation: neon .08s ease-in-out infinite alternate;
 }
-
+.step-4 .icons .row span{
+  /* color: rgb(235, 91, 91); */
+  animation: neon .08s ease-in-out infinite alternate;
+  font-size: 90px;
+}
 .step-4 .icons .name span{
   color: rgb(235, 91, 91);
   animation: neon .08s ease-in-out infinite alternate;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .step-4 .icons .row span:nth-child(even), .step-3 .icons .row span:nth-child(even) {
@@ -431,11 +435,27 @@ div#sea {
   top: 60px;
   right: 25px;
 }
+@media screen and (max-width: 360px){
 
-@media (min-width: 1000px) {
+  .icons .row span{
+    font-size: 100px;
+  }
+  .step-4 .icons .row span{
+    animation: neon .08s ease-in-out infinite alternate;
+    font-size: 100px;
+  }
+  .step-4 .icons .name span{
+    color: rgb(235, 91, 91);
+    animation: neon .08s ease-in-out infinite alternate;
+    font-size: 90px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   .icons {
     text-align: center;
   }
+  
 
   .icons .row span {
     font-size: 46px;
